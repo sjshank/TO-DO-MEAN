@@ -1,0 +1,7 @@
+{
+    "strict-ssl": false, 
+	"https-proxy": "",
+    "rejectUnauthorized" : false,
+    "ambient":true,
+    "registryURL":"http://api.typings.org/"
+}

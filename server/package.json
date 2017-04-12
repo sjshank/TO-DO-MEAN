@@ -1,0 +1,45 @@
+{
+  "name": "todo-list-nodejs",
+  "version": "1.0.0",
+  "description": "A REST API to add, update, delete and list your items.",
+  "main": "index.js",
+  "scripts": {
+    "start": "grunt build --force"
+  },
+  "keywords": [
+    "NODEJS",
+    "MONGODB",
+    "EXPRESSJS"
+  ],
+  "author": "sshankariya@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "body-parser": "^1.17.1",
+    "chalk": "^1.1.3",
+    "cors": "^2.8.3",
+    "debug": "^2.2.0",
+    "express": "^4.15.2",
+    "http": "0.0.0",
+    "jsonwebtoken": "^7.3.0",
+    "log4js": "^0.6.33",
+    "mongoose": "^4.9.2",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "~0.5.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jshint": "0.12.0",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-nodemon": "^0.4.2",
+    "lite-server": "^2.2.2"
+  }
+}

@@ -1,0 +1,9 @@
+#footer{
+    padding-top:80px;
+}
+#footer hr {
+        width: 40%;
+    }
+#footer p {
+        text-align: center;
+    }

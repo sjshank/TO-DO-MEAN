@@ -1,0 +1,25 @@
+.todo-jumbotron {
+  background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);
+  color: #fff;
+}
+.todo-jumbotron .row {
+  padding-top: 20px;
+}
+
+
+.item-detail {
+  border: 2px solid #424242;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.item-detail .form-group {
+  margin-bottom: 5px;
+}
+.item-detail .form-group a {
+  position: absolute;
+  top: 50%;
+  left: 85%;
+}

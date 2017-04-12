@@ -1,0 +1,23 @@
+<nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <span class="navbar-brand">
+                <a >{{title}}</a>
+                </span>
+        </div>
+        <div  id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right" style="color:#fff">
+                <li >
+                     <a [routerLink]="['/add']">Add New Item</a>
+                </li>
+                <li *ngIf="isLoggedIn">
+                    <span>Welcome {{user.userName}}</span>
+                </li>
+                <li *ngIf="isLoggedIn">
+                     <a [routerLink]="['/login']">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+

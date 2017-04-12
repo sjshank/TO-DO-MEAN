@@ -1,0 +1,22 @@
+<div class="jumbotron register-jumbotron">
+  <h2>{{title}}</h2>
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <form novalidate [formGroup]='rForm' (submit)="doRegistration(rForm.value)">
+        <div class="form-group">        
+          <label>User Name:</label>
+          <input class="form-control" type="text" placeholder="Enter user name" formControlName="userName">
+        </div>
+        <div class="form-group">
+          <label>Password:</label>
+          <input class="form-control" type="password" placeholder="Enter password" formControlName="password">
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary" [disabled]="!rForm.valid">Register</button>
+        </div>
+      </form>
+    </div>
+    
+  </div>
+</div>

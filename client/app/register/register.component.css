@@ -1,0 +1,7 @@
+.register-jumbotron {
+  background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);
+  color: #fff;
+}
+.register-jumbotron .row {
+  padding-top: 20px;
+}
